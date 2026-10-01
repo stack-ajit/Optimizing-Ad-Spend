@@ -49,13 +49,27 @@ Here are some of the key visual insights generated from the analysis:
 ![Plot 3](plots/plot_3.png)
 ![Plot 8](plots/plot_8.png)
 
-## 💡 Key Findings & Recommendations
-* **Winner by Conversions:** **Facebook** significantly outperformed AdWords. The mean number of conversions per day on Facebook was **11.74**, compared to only **5.98** on AdWords (nearly double the conversions).
+## 👔 Executive Summary for Stakeholders
+
+Based on a comprehensive analysis of 365 days of campaign data, **Facebook Advertising is unequivocally the more effective and profitable platform** compared to Google AdWords. 
+
+**The Bottom Line:**
+1. **Double the Conversions:** Facebook ads generate nearly twice as many conversions per day (averaging ~12 conversions) compared to AdWords (averaging ~6 conversions).
+2. **Predictable ROI:** Clicks on Facebook ads have a very strong, direct impact on sales. We can reliably predict that increasing our Facebook budget will result in a proportional increase in conversions.
+3. **Strategic Timing:** Marketing spend goes further on Mondays and Tuesdays. Furthermore, running campaigns in May and November is significantly more cost-effective due to historically lower acquisition costs.
+
+**Action Plan:**
+* **Shift Budget to Facebook:** We strongly recommend reallocating the majority of the advertising budget away from AdWords and heavily into Facebook to maximize overall ROI.
+* **Optimize Ad Scheduling:** Increase daily ad spend limits specifically on Mondays and Tuesdays to capture the highest-converting traffic.
+
+---
+
+## 💡 Detailed Analytical Findings
+* **Winner by Conversions:** **Facebook** significantly outperformed AdWords. The mean number of conversions per day on Facebook was **11.74**, compared to only **5.98** on AdWords.
 * **Click-to-Sale Correlation:** Facebook ads showed a strong positive linear relationship between clicks and sales (Correlation coefficient: **0.87**), compared to a moderate correlation for AdWords (0.45).
 * **Statistical Significance (A/B Test):** The hypothesis test confirmed that the difference in conversions between Facebook and AdWords is highly statistically significant (T-statistic: 32.88, p-value: 9.35e-134).
 * **Predictive Modeling:** A Linear Regression model predicting Facebook ad conversions based on clicks achieved an R-squared score of **76.35%**, demonstrating good predictive power for setting realistic campaign goals.
 * **Timing & Cost Trends:** Mondays and Tuesdays exhibited the highest conversion rates. Additionally, May and November showed the lowest Cost Per Conversion (CPC).
-* **Business Recommendation:** Given the significant difference in conversion rates and strong ROI, we recommend reallocating resources towards **Facebook advertising efforts**. Furthermore, campaigns should be optimized to target early-week engagement and capitalize on low CPC months like May and November.
 
 ## 📂 Project Structure
 ```text
